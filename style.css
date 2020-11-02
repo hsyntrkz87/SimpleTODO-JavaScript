@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(rgba(43, 42, 42, 0.92), rgba(43, 42, 42, 0.92)), url(bg.jpg) fixed center center;
+    background-size: cover;
+    color: white;
+    font-family: 'Piazzolla', serif;
+}
+
+.container {
+    width: 50%;
+    min-height: 60vh;
+    margin: 120px auto;
+    background: linear-gradient(rgba(43, 42, 42, 0.92), rgba(43, 42, 42, 0.92)), url(bg.jpg) fixed center center;
+    -webkit-box-shadow: 0px 0px 29px 0px rgb(204, 3, 0);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(204, 3, 0, 1);
+    box-shadow: 0px 0px 29px 0px rgba(204, 3, 0, 1);
+    border-radius: 15px;
+}
+
+.app-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(204, 3, 0);
+    margin-top: -5px;
+    border-bottom: 4px solid rgb(204, 3, 0);
+    border-radius: 15px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.app-title:hover {
+    color: white;
+    transition: 0.4s ease all;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.card {
+    background: linear-gradient(rgba(68, 68, 68, 0.92), rgba(65, 65, 65, 0.92)), url(bg.jpg) fixed center center;
+    width: 60%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+
+.form-control {
+    background: white;
+    color: white;
+    border: rgb(255, 187, 0);
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.75);
+}
+
+#btnAddNewTask {
+    background-color: rgb(204, 3, 0);
+    border: rgb(204, 3, 0);
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.75);
+}
+
+.card-header {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+#btnDeleteAll {
+    border: white;
+    color: white;
+}
+
+#btnDeleteAll i {
+    font-size: 25px;
+    -webkit-box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+#btnAddNewTask:hover {
+    color: black;
+    transition: 0.3 ease all;
+}
+
+#btnDeleteAll:hover {
+    color: rgb(204, 3, 0);
+    transition: 0.3 ease all;
+    background-color: transparent;
+}
